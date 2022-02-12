@@ -1,0 +1,133 @@
+html {
+    font-family:'Montserrat Subrayada', sans-serif;
+    text-rendering: optimizeLegibility;
+   
+    
+}
+
+
+
+/* NAV */
+
+nav{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+nav li a {
+    margin: 0;
+    padding:15px;
+    float:right;
+ letter-spacing: 3px;
+ font-size:20px;
+ display:inline-block;
+    
+}
+
+
+
+
+.genre:link,
+.genre:visited {
+    color: black;  
+    text-decoration:underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.stars li {
+    display:inline;
+}
+
+
+
+/*RECENTLY WATCHED */
+
+h1 {
+    padding-top: 50px;
+    font-family:'Montserrat Subrayada', sans-serif;
+   
+
+}
+.title{
+    text-align: center;
+    font-family:'Montserrat Subrayada', sans-serif;
+}
+
+.recent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.movie{
+    display:row;
+    margin-top:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*COMMENT SECTION*/
+
+.container {
+    width: 10%;
+    height: 65%;
+    border: 2px solid black;
+    margin-top: 10%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family:'Montserrat Subrayada', sans-serif;
+}
+
+.lac {
+   padding-left: 10px;
+   margin-top:5px;
+   width:30%;
+   
+  
+}
+
+textarea {
+    margin-left: 5px;
+    display:block;
+    width:60%;
+}
+
+.btn {
+    padding: 5px;
+
+
+
+
+    
+}
+
+input, button{
+    font-family:'Montserrat Subrayada', sans-serif;
+   
+    
+}
+
+.btn {
+    padding-bottom: 5px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    margin-top: 10%;
+}
